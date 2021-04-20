@@ -10,7 +10,7 @@ body {
 
 .all-contents-webpage {
     position: relative;
-    height: 100vh;
+    height: 1200px;
 }
 
 .main-container {
@@ -54,31 +54,136 @@ footer {
 }
 .bubble-2 {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .bubble-5 {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .bubble-8 {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
 .bubble-1 {
-    font-size: 22px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 .bubble-4 {
-    font-size: 22px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 .bubble-7 {
-    font-size: 22px;
+    font-size: 15px;
     font-weight: bold;
+}
+
+@media (min-width: 300px) {
+        .all-contents-webpage {
+        position: relative;
+        height: 740px;
+    }
+    .bubble-1 {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .bubble-4 {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .bubble-7 {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .bubble-2 {
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .bubble-5 {
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .bubble-8 {
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 375px) {
+    .all-contents-webpage {
+    position: relative;
+    height: 100vh;
+}
+.bubble-1 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bubble-4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bubble-7 {
+    font-size: 14px;
+    font-weight: bold;
+}
+.bubble-2 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bubble-5 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bubble-8 {
+    font-weight: bold;
+    font-size: 15px;
+}
+}
+
+@media (min-width: 1024px) {
+    .all-contents-webpage {
+    position: relative;
+    height: 100vh;
+}
+.bubble-1 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.bubble-4 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.bubble-7 {
+    font-size: 19px;
+    font-weight: bold;
+}
+.bubble-2 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bubble-5 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.bubble-8 {
+    font-weight: bold;
+    font-size: 15px;
+}
 }
