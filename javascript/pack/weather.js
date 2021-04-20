@@ -37,7 +37,7 @@ function changingColor(element) {
         changingColor(bubble2);
     })
     
-    fetch("https://api.openweathermap.org/data/2.5/weather?q=japan&appid=430368649130258e7c6b83e8a7239432", requestOptions)
+    fetch("https://api.openweathermap.org/data/2.5/weather?q=San Francisco&appid=430368649130258e7c6b83e8a7239432", requestOptions)
         .then(response =>
         response.text())
         .then(result => {
