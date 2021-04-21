@@ -1,0 +1,97 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #D0F4F0;
+}
+
+.all-contents-webpage {
+    position: relative;
+    height: 1200px;
+}
+
+.main-container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+#img-navbar {
+    height: 3em;
+    width: 3em;
+}
+
+#anchor-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.bubble {
+    background-color: white;
+    border-radius: 8px;
+    border: 4px solid #D0F4F0;
+    height: 170px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble-10 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+span {
+    font-size: 15px;
+    margin: 0;
+    font-weight: bolder;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.bubble-11 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.bubble-13 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.bubble-14 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.bubble-16 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.bubble-17 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
