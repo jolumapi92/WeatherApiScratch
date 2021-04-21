@@ -52,7 +52,7 @@ body {
     position: relative;
 }
 
-span {
+.span-corrected {
     font-size: 15px;
     margin: 0;
     font-weight: bolder;
