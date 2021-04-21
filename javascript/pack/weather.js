@@ -15,14 +15,14 @@ let bubble8 = document.querySelector('.bubble-8')
 let bubble9 = document.querySelector('.bubble-9')
 
 function changingColor(element) {
-    if(element.innerText >= 290){
+    if(element.innerText >= 24){
         element.style.backgroundColor = "#FD9A86"
-    } else if(element.innerText < 300) {
+    } else if(element.innerText <= 23) {
         element.style.backgroundColor = "#9CE1FC"
     }
 }
 
-  fetch("https://api.openweathermap.org/data/2.5/weather?q=Cuernavaca&appid=430368649130258e7c6b83e8a7239432", requestOptions)
+  fetch("https://api.openweathermap.org/data/2.5/weather?q=Cuernavaca&units=metric&appid=430368649130258e7c6b83e8a7239432", requestOptions)
         .then(response =>
         response.text())
         .then(result => {
@@ -37,7 +37,7 @@ function changingColor(element) {
         changingColor(bubble2);
     })
     
-    fetch("https://api.openweathermap.org/data/2.5/weather?q=San Francisco&appid=430368649130258e7c6b83e8a7239432", requestOptions)
+    fetch("https://api.openweathermap.org/data/2.5/weather?q=San Francisco&units=metric&appid=430368649130258e7c6b83e8a7239432", requestOptions)
         .then(response =>
         response.text())
         .then(result => {
@@ -51,7 +51,7 @@ function changingColor(element) {
         changingColor(bubble5);
     })
 
-    fetch("https://api.openweathermap.org/data/2.5/weather?q=london&appid=430368649130258e7c6b83e8a7239432", requestOptions)
+    fetch("https://api.openweathermap.org/data/2.5/weather?q=london&units=metric&appid=430368649130258e7c6b83e8a7239432", requestOptions)
         .then(response =>
         response.text())
         .then(result => {
