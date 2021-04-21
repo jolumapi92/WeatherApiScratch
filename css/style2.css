@@ -10,11 +10,9 @@ body {
 
 .all-contents-webpage {
     position: relative;
-    height: 1200px;
 }
 
 .main-container {
-    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
