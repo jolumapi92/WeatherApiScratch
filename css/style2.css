@@ -3,27 +3,22 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.bubble > a {
+    text-decoration: none;
+    background-color: #3777FF;
+    padding: 0.5em 1em;
+    color: white;
+    border-radius: 20px;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    
-    animation: gradient 7s ease infinite;
-    background-image: linear-gradient(135deg, #3777FF, #D6E3FF);
+    background-color: white;
     background-size: 400% 400%;
     height: 100%;
-    width: 100%;
-      
-      
-}
-@keyframes gradient {
-    0% {
-      background-position: 51% 0%;
-    }
-    50% {
-      background-position: 50% 100%;
-    }
-    100% {
-      background-position: 51% 0%;
-    }
+    width: 100%;      
 }
 
 #header-page {
@@ -54,14 +49,19 @@ body {
 }
 
 .bubble {
-    background-color: white;
+    background-color: #D4E2FF;
     border-radius: 8px;
-    border: 4px solid #D0F4F0;
+    border: 2px solid;
+    border-color:  #3777FF;    
     height: 250px;
     margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.5);
+}
+.bubble > h4 {
+    font-weight: bolder;
 }
 
 .bubble-10 {
