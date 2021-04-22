@@ -83,6 +83,21 @@ footer {
     font-weight: bold;
 }
 
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.main-container-character {
+    background-color: white;
+    height: 70%;
+    width: 40%;
+    border-radius: 9px;
+}
+
 @media (min-width: 300px) {
         .all-contents-webpage {
         position: relative;

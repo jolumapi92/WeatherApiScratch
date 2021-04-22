@@ -64,13 +64,3 @@ fetch("https://api.nytimes.com/svc/mostpopular/v2/emailed/7.json?api-key=GZXll42
     linkNYT5.href = newsData.results[5].url
 })
 
-fetch("https://swapi.dev/api/people/")
-    .then(response =>
-    response.text())
-    .then(result => {
-    console.log(JSON.parse(result), 'result')
-    starWarsData = JSON.parse(result)
-    
-    console.log(starWarsData.results[0])
-
-    })
