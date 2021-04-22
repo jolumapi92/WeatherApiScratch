@@ -5,7 +5,7 @@
 
 .bubble > a {
     text-decoration: none;
-    background-color: #3777FF;
+    background-color: #69DCCE;
     padding: 0.5em 1em;
     color: white;
     border-radius: 20px;
@@ -15,7 +15,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: white;
+    background-color: #D0F4F0;
     background-size: 400% 400%;
     height: 100%;
     width: 100%;      
@@ -49,12 +49,12 @@ body {
 }
 
 .bubble {
-    background-color: #D4E2FF;
+    background-color: white;
     border-radius: 8px;
     border: 2px solid;
-    border-color:  #3777FF;    
+    border-color:  #69DCCE;    
     height: 250px;
-    margin: 10px;
+    margin: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
