@@ -17,8 +17,13 @@ let gender = document.querySelector('#gender')
 let height = document.querySelector('#height')
 
 selector.addEventListener('change', function(event){
-    selected = event.target.value;
-
+    if(event.target.value == ""){
+        let num = Math.random()
+        selected = Math.ceil(num * num * 10 )
+        console.log(selected)
+    } else {
+        selected = event.target.value;
+    }
     nameC.innerText = `Name: ${starWarsData.results[selected]["name"]}`
     birth.innerText = `Birth Year: ${starWarsData.results[selected]["birth_year"]}`
     eye.innerText = `Eye Color: ${starWarsData.results[selected]["eye_color"]}`
