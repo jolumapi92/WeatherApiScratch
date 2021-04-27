@@ -1,4 +1,4 @@
-var requestOptions = {
+let requestOptions = {
     method: 'GET'
 };
 
